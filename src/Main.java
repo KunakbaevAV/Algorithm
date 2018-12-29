@@ -1,18 +1,12 @@
-import homework_3.Stack;
+import homework_3.InvertString;
 
 /**
  * @autor Kunakbaev Artem
  */
 public class Main {
     public static void main(String[] args) {
-        Stack stack = new Stack(4);
-        stack.push(2);
-        stack.push(4);
-        stack.push(8);
-        stack.push(8);
-        stack.push(8);
-        stack.push(8);
-        stack.printStack();
+        InvertString invertString = new InvertString("My first world");
+        System.out.println(invertString.invert());
     }
 }
 
